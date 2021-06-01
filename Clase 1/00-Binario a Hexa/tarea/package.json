@@ -1,0 +1,21 @@
+{
+      "name": "numen",
+      "version": "1.0.0",
+      "description": "<p align='left'> </p>",
+      "main": "index.js",
+      "scripts": {
+            "test": "jest --collectCoverage=false CS.test.js",
+            "grade": "jest --useStderr --json --outputFile=./tests/result.json"
+      },
+      "devDependencies": {
+            "eslint": "^4.13.1",
+            "jest": "^22.0.3",
+            "node-fetch": "^2.6.1",
+            "prompt-sync": "^4.2.0"
+      },
+      "author": "Numen",
+      "license": "ISC",
+      "jest": {
+            "testURL": "http://localhost/"
+      }
+}

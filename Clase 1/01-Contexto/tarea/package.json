@@ -1,0 +1,12 @@
+{
+      "name": "numen",
+      "version": "1.0.0",
+      "description": "<p align='left'> </p>",
+      "main": "index.js",
+      "author": "Numen",
+      "license": "ISC",
+      "dependencies": {
+        "node-fetch": "^2.6.1",
+        "prompt-sync": "^4.2.0"
+      }
+}
