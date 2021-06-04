@@ -2,7 +2,7 @@
 const {
   BinarioADecimal,
   DecimalABinario,
-} = require('../tarea.js.js.js');
+} = require('../tarea.js');
 
 describe('BinarioADecimal(num)', function() {
   it('should return 2', function() {
