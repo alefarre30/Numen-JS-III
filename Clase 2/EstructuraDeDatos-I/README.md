@@ -13,7 +13,7 @@ Suponiendo que queremos sumar todos los números hasta un valor de corte pasado 
       tot += i;
     }
     return tot;
-  }
+  } 
 ```
 
 Si analizamos un poco esta operación hay una linea clave que es la que hace el trabajo: `tot += i`
