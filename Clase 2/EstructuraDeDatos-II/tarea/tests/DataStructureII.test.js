@@ -135,9 +135,9 @@ describe('HashTable', function() {
   it('deberia `hash` correctament', function() {
     // esta funcion hasheadora deberia sumar los key code de las letras de la palabra,
     // y hacer el mod de ese numero por el numero de buckets .
-    expect(hashTable.hash('foo')).toBe(9);
-    expect(hashTable.hash('this is a key')).toBe(27);
-    expect(hashTable.hash('what about this one')).toBe(13);
+    expect(hashTable.hash('foo')).toBe(24);
+    expect(hashTable.hash('this is a key')).toBe(33);
+    expect(hashTable.hash('what about this one')).toBe(3);
   });
 
   it('deberia guardar y buscar valores por key', function() {

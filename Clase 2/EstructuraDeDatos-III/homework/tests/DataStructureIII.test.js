@@ -1,7 +1,7 @@
  /* eslint-disable no-undef */
 const {
   BinarySearchTree
-} = require('../tarea');
+} = require('../homework');
 
 describe('binarySearchTree', function() {
   var tree,
@@ -29,7 +29,7 @@ describe('binarySearchTree', function() {
   it('hace nodos en la rama correcta', function () {
     tree.insert(12);
     tree.insert(22);
-expect(tree.size()).toBe(3);
+    expect(tree.size()).toBe(3);
     expect(tree.left.value).toBe(12);
     expect(tree.right.value).toBe(22);
   });
